@@ -1,38 +1,16 @@
 {
-  "sourceCommit": "ff97ad7ce4d5cde7039875074052a0d393b58fee",
-  "run": {
-    "id": 41796025657,
-    "attempt": 1,
-    "workflow": "Check docs",
-    "url": "https://github.com/AMD-AIM/radeon-cloud-docs/actions/runs/41796025657",
-    "headSha": "ff97ad7ce4d5cde7039875074052a0d393b58fee",
+  "sourceCommit": "5ce08ba14661141788334f8229ea9305341216b4",
+  "ci": {
+    "id": 41799227634,
+    "run_attempt": 1,
+    "head_sha": "5ce08ba14661141788334f8229ea9305341216b4",
     "status": "completed",
     "conclusion": "action_required",
+    "html_url": "https://github.com/AMD-AIM/radeon-cloud-docs/actions/runs/41799227634",
     "jobs": [],
-    "approvalRequirement": "GitHub workflow page explicitly says: This workflow is awaiting approval from a maintainer."
+    "approvalRequirement": "GitHub workflow page explicitly says awaiting approval from a maintainer."
   },
-  "screenshots": [
-    {
-      "url": "https://raw.githubusercontent.com/LiStone30/radeon-cloud-docs/5000b1daad7164d7f9263771733a9ced833a6e8d/issue-279-faq/faq-en-desktop.png",
-      "status": 200,
-      "pngSignature": true
-    },
-    {
-      "url": "https://raw.githubusercontent.com/LiStone30/radeon-cloud-docs/5000b1daad7164d7f9263771733a9ced833a6e8d/issue-279-faq/faq-zh-cn-desktop.png",
-      "status": 200,
-      "pngSignature": true
-    },
-    {
-      "url": "https://raw.githubusercontent.com/LiStone30/radeon-cloud-docs/5000b1daad7164d7f9263771733a9ced833a6e8d/issue-279-faq/faq-en-mobile.png",
-      "status": 200,
-      "pngSignature": true
-    },
-    {
-      "url": "https://raw.githubusercontent.com/LiStone30/radeon-cloud-docs/5000b1daad7164d7f9263771733a9ced833a6e8d/issue-279-faq/faq-zh-cn-mobile.png",
-      "status": 200,
-      "pngSignature": true
-    }
-  ],
+  "fourFixedCommitImages": "HTTP 200 and valid PNG",
   "sourceDiffOnlyTwoFaqFiles": true,
   "bodyReadBack": true
 }

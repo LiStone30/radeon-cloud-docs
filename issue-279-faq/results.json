@@ -14,7 +14,14 @@
   "review": "No findings after read-only review of full merge-base diff and title-only revision.",
   "branchCleanup": "Delete evidence branch after source PR is merged, as authorized. Commit links are not guaranteed permanent after deletion.",
   "ci": {
-    "status": "Pending push of new title-only source revision; previous ff97ad7 CI attempt2 succeeded but is not new HEAD validation."
+    "id": 41799227634,
+    "run_attempt": 1,
+    "head_sha": "5ce08ba14661141788334f8229ea9305341216b4",
+    "status": "completed",
+    "conclusion": "action_required",
+    "html_url": "https://github.com/AMD-AIM/radeon-cloud-docs/actions/runs/41799227634",
+    "jobs": [],
+    "approvalRequirement": "GitHub workflow page explicitly says awaiting approval from a maintainer."
   },
   "repositoryReviewBot": "No documented trigger in repository README or workflows, no bot review observed; not requested while required CI awaits maintainer approval."
 }
