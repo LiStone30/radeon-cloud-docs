@@ -4,8 +4,8 @@ const fs = require('node:fs');
 const repo = process.env.DOCS_WORKTREE;
 const output = process.env.EVIDENCE_DIR;
 const cases = [
-  {lang:'en',path:'/radeon-cloud-docs/resources/faq/',section:'Access',question:'Why does accessing GitHub or fetching notebooks fail from an instance?',answer:'Due to network restrictions, GitHub is not reliably reachable from instances. Please download the notebook locally and upload it through JupyterLab, or use a mirror such as Gitee.',scope:'This applies to both the China and Global sites.'},
-  {lang:'zh-cn',path:'/radeon-cloud-docs/zh-cn/resources/faq/',section:'访问',question:'为什么实例内访问 GitHub 或拉取 Notebook 会失败？',answer:'由于网络限制，实例内无法稳定访问 GitHub；请在本地下载后通过 JupyterLab 上传，或使用国内镜像（如 Gitee）。',scope:'此说明适用于中国站和 Global。'}
+  {lang:'en',path:'/radeon-cloud-docs/resources/faq/',section:'Access',question:'Why do git clone, pip install git+… or GitHub downloads often fail inside an instance?',answer:'Due to network restrictions, GitHub is not reliably reachable from instances. Please download the notebook locally and upload it through JupyterLab, or use a mirror such as Gitee.',scope:'This applies to both the China and Global sites.'},
+  {lang:'zh-cn',path:'/radeon-cloud-docs/zh-cn/resources/faq/',section:'访问',question:'为什么在实例里 git clone、pip install git+… 或下载 GitHub 文件经常失败？',answer:'由于网络限制，实例内无法稳定访问 GitHub；请在本地下载后通过 JupyterLab 上传，或使用国内镜像（如 Gitee）。',scope:'此说明适用于中国站和 Global。'}
 ];
 (async()=>{
   const server = spawn('npm',['run','preview','--','--host','127.0.0.1','--port','18779'],{cwd:repo,stdio:'ignore'});

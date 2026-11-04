@@ -1,5 +1,5 @@
 {
-  "sourceCommit": "ff97ad7ce4d5cde7039875074052a0d393b58fee",
+  "sourceCommit": "5ce08ba14661141788334f8229ea9305341216b4",
   "baseCommit": "9ea469e709fbfc7b7906dd56c48cbc0383b7f833",
   "environment": "Isolated documentation build preview",
   "imageDigest": null,
@@ -9,20 +9,12 @@
   "preview": "4 successful cases: EN and zh-cn, desktop 1440x960 and mobile 390x844",
   "linkCheck": "11652 internal URLs on 123 pages; 0 broken",
   "localeParity": "56 source pages per language",
-  "dependencyAudit": "npm ci reported 14 existing lockfile dependency vulnerabilities (3 low, 2 moderate, 8 high, 1 critical); no dependency or lockfile changes",
+  "dependencyAudit": "Previous npm ci reported 14 advisories; package files remain unchanged, install was not repeated for title-only revision.",
   "publicSiteDeployment": "Not executed; PR must be merged by a maintainer first",
-  "review": "Read-only full merge-base diff reviewed using review-agent criteria. No findings.",
+  "review": "No findings after read-only review of full merge-base diff and title-only revision.",
   "branchCleanup": "Delete evidence branch after source PR is merged, as authorized. Commit links are not guaranteed permanent after deletion.",
   "ci": {
-    "id": 41796025657,
-    "attempt": 1,
-    "workflow": "Check docs",
-    "url": "https://github.com/AMD-AIM/radeon-cloud-docs/actions/runs/41796025657",
-    "headSha": "ff97ad7ce4d5cde7039875074052a0d393b58fee",
-    "status": "completed",
-    "conclusion": "action_required",
-    "jobs": [],
-    "approvalRequirement": "GitHub workflow page explicitly says: This workflow is awaiting approval from a maintainer."
+    "status": "Pending push of new title-only source revision; previous ff97ad7 CI attempt2 succeeded but is not new HEAD validation."
   },
   "repositoryReviewBot": "No documented trigger in repository README or workflows, no bot review observed; not requested while required CI awaits maintainer approval."
 }

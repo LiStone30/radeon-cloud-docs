@@ -1,7 +1,7 @@
 No findings.
 
-Reviewed full merge-base diff from `9ea469e709fbfc7b7906dd56c48cbc0383b7f833` to `ff97ad7ce4d5cde7039875074052a0d393b58fee` and surrounding bilingual FAQ, README writing conventions, existing check/deploy workflows. Only the two approved FAQ additions are present. English wording and unchanged question titles match the user-approved plan; two-site scope is explicit. Screenshots were visually checked for all four preview cases.
+Reviewed full merge-base diff against origin/main and title-only revision `ff97ad7ce4d5cde7039875074052a0d393b58fee` -> `5ce08ba14661141788334f8229ea9305341216b4`. Only the two approved FAQ question titles changed in this revision. The finalized answer and both-site scope remain byte-for-byte unchanged. The command wording matches the PM recommendation.
 
-Validation: npm ci; npm run build; python3 scripts/check-links.py dist; locale page parity; exact rendered wording and viewport overflow checks. All completed successfully. Node 22 used for the isolated build; existing CI uses Node 20.
+PASS: npm run build; python3 scripts/check-links.py dist (11652 URLs, 123 pages, zero broken); bilingual source parity (56 pages each); four rendered exact-wording/overflow checks and visual screenshot inspection (EN/zh-cn, desktop/mobile). Existing CI will validate the new HEAD after push. Previous npm ci and audit results are historical dependency validation; no dependency changes.
 
-Limitations: no production publication, instance network test, or end-to-end product deployment. Existing lockfile dependency advisories were reported by npm ci; dependency files remain unchanged. Repository files contain no documented review-bot trigger; this review is the development review and does not claim repository bot approval.
+Limitations: isolated documentation preview, not public publication or instance networking verification. No repository bot trigger documented in README/workflows; this is development review, not bot approval.
