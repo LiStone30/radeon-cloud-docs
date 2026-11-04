@@ -12,5 +12,17 @@
   "dependencyAudit": "npm ci reported 14 existing lockfile dependency vulnerabilities (3 low, 2 moderate, 8 high, 1 critical); no dependency or lockfile changes",
   "publicSiteDeployment": "Not executed; PR must be merged by a maintainer first",
   "review": "Read-only full merge-base diff reviewed using review-agent criteria. No findings.",
-  "branchCleanup": "Delete evidence branch after source PR is merged, as authorized. Commit links are not guaranteed permanent after deletion."
+  "branchCleanup": "Delete evidence branch after source PR is merged, as authorized. Commit links are not guaranteed permanent after deletion.",
+  "ci": {
+    "id": 41796025657,
+    "attempt": 1,
+    "workflow": "Check docs",
+    "url": "https://github.com/AMD-AIM/radeon-cloud-docs/actions/runs/41796025657",
+    "headSha": "ff97ad7ce4d5cde7039875074052a0d393b58fee",
+    "status": "completed",
+    "conclusion": "action_required",
+    "jobs": [],
+    "approvalRequirement": "GitHub workflow page explicitly says: This workflow is awaiting approval from a maintainer."
+  },
+  "repositoryReviewBot": "No documented trigger in repository README or workflows, no bot review observed; not requested while required CI awaits maintainer approval."
 }
