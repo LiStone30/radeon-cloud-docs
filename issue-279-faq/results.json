@@ -1,0 +1,16 @@
+{
+  "sourceCommit": "ff97ad7ce4d5cde7039875074052a0d393b58fee",
+  "baseCommit": "9ea469e709fbfc7b7906dd56c48cbc0383b7f833",
+  "environment": "Isolated documentation build preview",
+  "imageDigest": null,
+  "imageDigestReason": "No container image or application deployment used",
+  "node": "v22.23.1",
+  "ciNode": "20 (configured; results recorded separately after PR creation)",
+  "preview": "4 successful cases: EN and zh-cn, desktop 1440x960 and mobile 390x844",
+  "linkCheck": "11652 internal URLs on 123 pages; 0 broken",
+  "localeParity": "56 source pages per language",
+  "dependencyAudit": "npm ci reported 14 existing lockfile dependency vulnerabilities (3 low, 2 moderate, 8 high, 1 critical); no dependency or lockfile changes",
+  "publicSiteDeployment": "Not executed; PR must be merged by a maintainer first",
+  "review": "Read-only full merge-base diff reviewed using review-agent criteria. No findings.",
+  "branchCleanup": "Delete evidence branch after source PR is merged, as authorized. Commit links are not guaranteed permanent after deletion."
+}

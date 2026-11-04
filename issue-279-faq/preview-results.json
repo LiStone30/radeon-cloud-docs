@@ -1,0 +1,45 @@
+{
+  "environment": "Isolated documentation build preview; no production deployment or instance networking test",
+  "data": "Public documentation content only",
+  "node": "v22.23.1",
+  "browser": "151.0.7922.34",
+  "at": "2026-11-04T07:55:42.865Z",
+  "results": [
+    {
+      "language": "en",
+      "viewport": "desktop",
+      "path": "/radeon-cloud-docs/resources/faq/",
+      "status": 200,
+      "exactText": true,
+      "horizontalOverflow": false,
+      "screenshot": "faq-en-desktop.png"
+    },
+    {
+      "language": "en",
+      "viewport": "mobile",
+      "path": "/radeon-cloud-docs/resources/faq/",
+      "status": 200,
+      "exactText": true,
+      "horizontalOverflow": false,
+      "screenshot": "faq-en-mobile.png"
+    },
+    {
+      "language": "zh-cn",
+      "viewport": "desktop",
+      "path": "/radeon-cloud-docs/zh-cn/resources/faq/",
+      "status": 200,
+      "exactText": true,
+      "horizontalOverflow": false,
+      "screenshot": "faq-zh-cn-desktop.png"
+    },
+    {
+      "language": "zh-cn",
+      "viewport": "mobile",
+      "path": "/radeon-cloud-docs/zh-cn/resources/faq/",
+      "status": 200,
+      "exactText": true,
+      "horizontalOverflow": false,
+      "screenshot": "faq-zh-cn-mobile.png"
+    }
+  ]
+}

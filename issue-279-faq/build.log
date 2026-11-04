@@ -1,0 +1,260 @@
+
+> radeon-cloud-docs@1.0.0 build
+> astro build
+
+▶ Astro collects anonymous usage data.
+  This information helps us improve Astro.
+  Run "astro telemetry disable" to opt-out.
+  https://astro.build/telemetry
+
+15:54:39 [content] Syncing content
+15:54:41 [content] Synced content
+15:54:41 [types] Generated 1.67s
+15:54:41 [build] output: "static"
+15:54:41 [build] mode: "static"
+15:54:41 [build] directory: [documentation-workspace]
+15:54:41 [build] Collecting build info...
+15:54:41 [build] ✓ Completed in 1.74s.
+15:54:41 [build] Building static entrypoints...
+15:54:42 [vite] ✓ built in 893ms
+15:54:42 [build] ✓ Completed in 911ms.
+
+ building client (vite) 
+15:54:42 [vite] transforming...
+15:54:42 [vite] ✓ 19 modules transformed.
+15:54:42 [vite] rendering chunks...
+15:54:42 [vite] computing gzip size...
+15:54:42 [vite] dist/_astro/ec.0vx5m.js                                                              2.52 kB
+15:54:42 [vite] dist/_astro/ec.v4551.css                                                            18.22 kB │ gzip:  3.96 kB
+15:54:42 [vite] dist/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C181hMzK.js   0.67 kB │ gzip:  0.40 kB
+15:54:42 [vite] dist/_astro/TableOfContents.astro_astro_type_script_index_0_lang.CKWWgpjV.js         1.67 kB │ gzip:  0.86 kB
+15:54:42 [vite] dist/_astro/page.B1D-nYk3.js                                                         2.24 kB │ gzip:  1.01 kB
+15:54:42 [vite] dist/_astro/Search.astro_astro_type_script_index_0_lang.DEgAtjlp.js                  2.74 kB │ gzip:  1.40 kB
+15:54:42 [vite] dist/_astro/AskAI.astro_astro_type_script_index_0_lang.COuX5Sq0.js                   4.86 kB │ gzip:  2.12 kB
+15:54:42 [vite] dist/_astro/ui-core.CaFTG7Ay.js                                                     72.93 kB │ gzip: 22.86 kB
+15:54:42 [vite] ✓ built in 118ms
+
+ generating static routes 
+15:54:42 ▶ @astrojs/starlight/routes/static/404.astro
+15:54:42   └─ /404.htmlEntry docs → 404 was not found.
+ (+11ms) 
+15:54:42 ▶ @astrojs/starlight/routes/static/index.astro
+15:54:42   ├─ /index.html (+5ms) 
+15:54:42   ├─ /introduction/index.html (+4ms) 
+15:54:42   ├─ /api/account/index.html (+6ms) 
+15:54:42   ├─ /api/authentication/index.html (+3ms) 
+15:54:42   ├─ /cli/automation/index.html (+3ms) 
+15:54:42   ├─ /cli/overview/index.html (+3ms) 
+15:54:42   ├─ /quickstart/index.html (+3ms) 
+15:54:42   ├─ /cli/authentication/index.html (+3ms) 
+15:54:42   ├─ /cli/install/index.html (+5ms) 
+15:54:42   ├─ /cli/instances/index.html (+3ms) 
+15:54:42   ├─ /api/chat-completions/index.html (+2ms) 
+15:54:42   ├─ /api/errors/index.html (+2ms) 
+15:54:42   ├─ /api/instances/index.html (+2ms) 
+15:54:42   ├─ /api/messages/index.html (+2ms) 
+15:54:42   ├─ /api/model-services/index.html (+4ms) 
+15:54:42   ├─ /api/model-utilization/index.html (+2ms) 
+15:54:42   ├─ /api/overview/index.html (+2ms) 
+15:54:42   ├─ /api/models/index.html (+2ms) 
+15:54:42   ├─ /api/rate-limits/index.html (+2ms) 
+15:54:42   ├─ /api/templates/index.html (+2ms) 
+15:54:42   ├─ /api/usage/index.html (+4ms) 
+15:54:42   ├─ /api/terms/index.html (+2ms) 
+15:54:42   ├─ /guides/credits/index.html (+6ms) 
+15:54:42   ├─ /guides/destroy/index.html (+2ms) 
+15:54:42   ├─ /guides/developer-program/index.html (+2ms) 
+15:54:42   ├─ /guides/images/index.html (+4ms) 
+15:54:42   ├─ /guides/gallery/index.html (+2ms) 
+15:54:42   ├─ /guides/instances/index.html (+2ms) 
+15:54:42   ├─ /guides/jupyterlab/index.html (+2ms) 
+15:54:42   ├─ /guides/launch/index.html (+3ms) 
+15:54:42   ├─ /guides/login/index.html (+2ms) 
+15:54:42   ├─ /guides/serve-model/index.html (+3ms) 
+15:54:42   ├─ /guides/ssh/index.html (+2ms) 
+15:54:42   ├─ /guides/storage/index.html (+2ms) 
+15:54:42   ├─ /guides/token-factory/index.html (+2ms) 
+15:54:42   ├─ /models/clef/index.html (+2ms) 
+15:54:42   ├─ /guides/tunnel/index.html (+2ms) 
+15:54:42   ├─ /models/d3-flash/index.html (+4ms) 
+15:54:42   ├─ /models/d3/index.html (+2ms) 
+15:54:42   ├─ /models/deepseek-v4-1-flash/index.html (+2ms) 
+15:54:42   ├─ /models/deepseek-v4-flash-vision-exp/index.html (+2ms) 
+15:54:42   ├─ /models/deepseek-v4-flash/index.html (+2ms) 
+15:54:42   ├─ /models/gemma-4-31b-it/index.html (+2ms) 
+15:54:42   ├─ /models/glm-5-3-flash/index.html (+3ms) 
+15:54:42   ├─ /models/mimo-v2-6-flash/index.html (+2ms) 
+15:54:42   ├─ /models/mineru2-5-pro/index.html (+2ms) 
+15:54:42   ├─ /models/minicpm-v4-7-1b/index.html (+2ms) 
+15:54:42   ├─ /models/minicpm-v4-7-35b-a3b/index.html (+2ms) 
+15:54:42   ├─ /models/minicpm5-2b/index.html (+2ms) 
+15:54:42   ├─ /models/omnivoice/index.html (+3ms) 
+15:54:42   ├─ /models/overview/index.html (+2ms) 
+15:54:42   ├─ /models/qwen3-8-27b/index.html (+2ms) 
+15:54:42   ├─ /models/qwen3-8-flash-next/index.html (+2ms) 
+15:54:42   ├─ /resources/classic-ui/index.html (+2ms) 
+15:54:42   ├─ /resources/troubleshooting/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/introduction/index.html (+4ms) 
+15:54:42   ├─ /zh-cn/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/quickstart/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/cli/authentication/index.html (+2ms) 
+15:54:42   ├─ /resources/faq/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/cli/automation/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/cli/install/index.html (+3ms) 
+15:54:42   ├─ /zh-cn/cli/instances/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/cli/overview/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/account/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/authentication/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/chat-completions/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/errors/index.html (+3ms) 
+15:54:42   ├─ /zh-cn/api/instances/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/messages/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/model-services/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/model-utilization/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/models/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/overview/index.html (+3ms) 
+15:54:42   ├─ /zh-cn/api/rate-limits/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/templates/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/terms/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/api/usage/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/credits/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/destroy/index.html (+3ms) 
+15:54:42   ├─ /zh-cn/guides/developer-program/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/gallery/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/images/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/instances/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/jupyterlab/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/launch/index.html (+5ms) 
+15:54:42   ├─ /zh-cn/guides/login/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/serve-model/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/ssh/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/storage/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/token-factory/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/guides/tunnel/index.html (+3ms) 
+15:54:42   ├─ /zh-cn/models/clef/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/d3-flash/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/d3/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/deepseek-v4-1-flash/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/deepseek-v4-flash-vision-exp/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/deepseek-v4-flash/index.html (+3ms) 
+15:54:42   ├─ /zh-cn/models/gemma-4-31b-it/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/glm-5-3-flash/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/mimo-v2-6-flash/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/mineru2-5-pro/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/minicpm-v4-7-1b/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/minicpm-v4-7-35b-a3b/index.html (+4ms) 
+15:54:42   ├─ /zh-cn/models/minicpm5-2b/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/omnivoice/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/qwen3-8-27b/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/qwen3-8-flash-next/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/resources/classic-ui/index.html (+2ms) 
+15:54:42   ├─ /zh-cn/models/overview/index.html (+3ms) 
+15:54:42   ├─ /zh-cn/resources/troubleshooting/index.html (+2ms) 
+15:54:42   └─ /zh-cn/resources/faq/index.html (+2ms) 
+15:54:42 ▶ /api/dedicated-endpoints/
+15:54:42   └─ /api/dedicated-endpoints/index.html (+0ms) 
+15:54:42 ▶ /guides/dedicated-models/
+15:54:42   └─ /guides/dedicated-models/index.html (+0ms) 
+15:54:42 ▶ /guides/model-apis/
+15:54:42   └─ /guides/model-apis/index.html (+0ms) 
+15:54:42 ▶ /guides/shared-models/
+15:54:42   └─ /guides/shared-models/index.html (+0ms) 
+15:54:42 ▶ /guides/templates/
+15:54:42   └─ /guides/templates/index.html (+0ms) 
+15:54:42 ▶ /zh-cn/api/dedicated-endpoints/
+15:54:42   └─ /zh-cn/api/dedicated-endpoints/index.html (+0ms) 
+15:54:42 ▶ /zh-cn/guides/dedicated-models/
+15:54:42   └─ /zh-cn/guides/dedicated-models/index.html (+0ms) 
+15:54:42 ▶ /zh-cn/guides/model-apis/
+15:54:42   └─ /zh-cn/guides/model-apis/index.html (+0ms) 
+15:54:42 ▶ /zh-cn/guides/shared-models/
+15:54:42   └─ /zh-cn/guides/shared-models/index.html (+0ms) 
+15:54:42 ▶ /zh-cn/guides/templates/
+15:54:42   └─ /zh-cn/guides/templates/index.html (+0ms) 
+15:54:42 ✓ Completed in 323ms.
+
+ generating optimized images 
+15:54:42   ▶ /_astro/redeem-dialog.CPoBJzD2_ZhaXdT.webp (before: 12kB, after: 5kB) (+221ms) (1/35)
+15:54:42   ▶ /_astro/destroy-confirm.GFj9BwNQ_16Ia63.webp (before: 42kB, after: 14kB) (+221ms) (2/35)
+15:54:42   ▶ /_astro/launch-default.CogclKlf_1NjzYH.webp (before: 40kB, after: 12kB) (+221ms) (3/35)
+15:54:42   ▶ /_astro/launch-customize.DzlaSAIx_Z13xqfY.webp (before: 30kB, after: 11kB) (+221ms) (4/35)
+15:54:42   ▶ /_astro/credits-usage.BpUdIIBe_ZlcfhS.webp (before: 58kB, after: 26kB) (+222ms) (5/35)
+15:54:42   ▶ /_astro/launch-ready.e0ohIl7B_Z1t4qkI.webp (before: 30kB, after: 12kB) (+221ms) (6/35)
+15:54:42   ▶ /_astro/instance-logs.BcJ9B4QZ_bMswA.webp (before: 74kB, after: 37kB) (+221ms) (7/35)
+15:54:42   ▶ /_astro/gallery.DRiZPMrO_Z175drv.webp (before: 60kB, after: 27kB) (+222ms) (8/35)
+15:54:42   ▶ /_astro/launch-failed-capacity.B_95rGYJ_Z1KS4ih.webp (before: 27kB, after: 13kB) (+222ms) (9/35)
+15:54:42   ▶ /_astro/settings-ssh-keys.Bev8GQgq_Z1mTzNB.webp (before: 13kB, after: 5kB) (+221ms) (10/35)
+15:54:42   ▶ /_astro/modelapi-template.CO-eHePn_xpt4h.webp (before: 53kB, after: 34kB) (+222ms) (11/35)
+15:54:42   ▶ /_astro/modelapi-access.RiUxVBLq_1Sw2uj.webp (before: 49kB, after: 14kB) (+222ms) (12/35)
+15:54:42   ▶ /_astro/instance-card.BWUi49bL_Z4kE4X.webp (before: 94kB, after: 21kB) (+222ms) (13/35)
+15:54:42   ▶ /_astro/jupyterlab.C3E-885C_ZYxW8g.webp (before: 53kB, after: 32kB) (+222ms) (14/35)
+15:54:42   ▶ /_astro/tokenfactory.C20lVc-L_1nYl5D.webp (before: 51kB, after: 18kB) (+222ms) (15/35)
+15:54:42   ▶ /_astro/redeem-dialog.Buw6alCn_1KxUBn.webp (before: 13kB, after: 4kB) (+222ms) (16/35)
+15:54:42   ▶ /_astro/login.4WSG0SYV_Z1D43HX.webp (before: 70kB, after: 27kB) (+222ms) (17/35)
+15:54:42   ▶ /_astro/modelapi-custom.DyDRIEaQ_ZRJ0QV.webp (before: 42kB, after: 24kB) (+222ms) (18/35)
+15:54:42   ▶ /_astro/launch-default.CE6NEUe3_2tWlUa.webp (before: 40kB, after: 11kB) (+222ms) (19/35)
+15:54:42   ▶ /_astro/cn-login-form.Ba61wD6Z_9witq.webp (before: 162kB, after: 38kB) (+222ms) (20/35)
+15:54:42   ▶ /_astro/launch-progress.C1qtpINL_ZT9g0C.webp (before: 27kB, after: 8kB) (+222ms) (21/35)
+15:54:42   ▶ /_astro/launch-customize.CqSw0M9O_Z1sowhJ.webp (before: 36kB, after: 10kB) (+222ms) (22/35)
+15:54:42   ▶ /_astro/credits-usage.BQZX9BJ__Z2nvvJa.webp (before: 65kB, after: 24kB) (+222ms) (23/35)
+15:54:42   ▶ /_astro/launch-ready.Dq7gEERi_1dEeNx.webp (before: 25kB, after: 8kB) (+222ms) (24/35)
+15:54:42   ▶ /_astro/gallery.CrA77Rz4_1WiC0E.webp (before: 60kB, after: 25kB) (+222ms) (25/35)
+15:54:42   ▶ /_astro/launch-failed-capacity.CwGsuYfj_1t91SV.webp (before: 30kB, after: 10kB) (+222ms) (26/35)
+15:54:42   ▶ /_astro/instance-logs.B-2VZsVC_ZLMQ8O.webp (before: 74kB, after: 36kB) (+222ms) (27/35)
+15:54:42   ▶ /_astro/settings-ssh-keys.DDWaZ2N1_uN7Qp.webp (before: 15kB, after: 4kB) (+222ms) (28/35)
+15:54:42   ▶ /_astro/destroy-confirm.D4SzS6iK_1J4Jh0.webp (before: 42kB, after: 12kB) (+222ms) (29/35)
+15:54:42   ▶ /_astro/instance-card.CluOnRs4_RoxBW.webp (before: 97kB, after: 21kB) (+222ms) (30/35)
+15:54:42   ▶ /_astro/modelapi-access.C6ld5YL-_2jU2mA.webp (before: 51kB, after: 15kB) (+222ms) (31/35)
+15:54:42   ▶ /_astro/modelapi-template.BgrCCYkN_2l2GV6.webp (before: 58kB, after: 31kB) (+222ms) (32/35)
+15:54:42   ▶ /_astro/modelapi-custom.BUKpmmWd_Z1EMPvi.webp (before: 48kB, after: 20kB) (+227ms) (33/35)
+15:54:42   ▶ /_astro/tokenfactory.ByToooYn_Z1UHVRt.webp (before: 48kB, after: 19kB) (+242ms) (34/35)
+15:54:42   ▶ /_astro/cn-login.ee0CS_TF_22S3QM.webp (before: 502kB, after: 53kB) (+327ms) (35/35)
+15:54:42 ✓ Completed in 328ms.
+
+15:54:42 [ask-ai-corpus] corpus-en.md: 55 pages, 267724 characters
+15:54:42 [ask-ai-corpus] corpus-zh-cn.md: 55 pages, 171046 characters
+
+Running Pagefind v1.4.0 (Extended)
+Running from: "[documentation-workspace]"
+Source:       "../../../dist"
+Output:       "../../../dist/pagefind"
+
+[Walking source directory]
+Found 123 files matching **/*.{html}
+
+[Parsing files]
+Found a data-pagefind-body element on the site.
+↳ Ignoring pages without this tag.
+10 pages found without an <html> element. 
+Pages without an outer <html> element will not be processed by default. 
+If adding this element is not possible, use the root selector config to target a different root element.
+  * "/zh-cn/api/dedicated-endpoints/" has no <html> element
+  * "/zh-cn/guides/dedicated-models/" has no <html> element
+  * "/zh-cn/guides/templates/" has no <html> element
+  * "/zh-cn/guides/shared-models/" has no <html> element
+  * "/zh-cn/guides/model-apis/" has no <html> element
+  * "/api/dedicated-endpoints/" has no <html> element
+  * "/guides/dedicated-models/" has no <html> element
+  * "/guides/templates/" has no <html> element
+  * "/guides/shared-models/" has no <html> element
+  * "/guides/model-apis/" has no <html> element
+
+[Reading languages]
+Discovered 2 languages: zh-cn, en
+
+[Building search indexes]
+Total: 
+  Indexed 2 languages
+  Indexed 112 pages
+  Indexed 6502 words
+  Indexed 0 filters
+  Indexed 0 sorts
+Note: Pagefind doesn't support stemming for the language zh-cn. 
+Search will still work, but will not match across root words.
+Note: Pagefind doesn't support stemming for the language zh-cn. 
+Search will still work, but will not match across root words.
+
+Finished in 0.575 seconds
+15:54:43 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+15:54:43 [build] 113 page(s) built in 4.23s
+15:54:43 [build] Complete!
