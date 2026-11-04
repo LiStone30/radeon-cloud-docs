@@ -1,0 +1,28 @@
+{
+  "ci": {
+    "id": 41799227634,
+    "run_attempt": 2,
+    "head_sha": "5ce08ba14661141788334f8229ea9305341216b4",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/AMD-AIM/radeon-cloud-docs/actions/runs/41799227634",
+    "jobs": [
+      {
+        "id": 126471816451,
+        "name": "Build and check links",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/AMD-AIM/radeon-cloud-docs/actions/runs/41799227634/job/126471816451"
+      }
+    ],
+    "logArchival": "Detailed CI logs were not exported or republished; this record contains only allowlisted public workflow/job status metadata and links to GitHub."
+  },
+  "review": {
+    "id": 5765490173,
+    "state": "APPROVED",
+    "body": "PM 审核通过：`5ce08ba1` 的两条 FAQ 标题和建议一致，正文没动；Check docs 已通过（run 41799227634）。\n",
+    "commit_id": "5ce08ba14661141788334f8229ea9305341216b4",
+    "submitted_at": "2026-11-04T08:29:56Z",
+    "html_url": "https://github.com/AMD-AIM/radeon-cloud-docs/pull/36#pullrequestreview-5765490173"
+  }
+}
